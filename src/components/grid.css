@@ -1,0 +1,9 @@
+.contenedor{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 186px);
+    justify-content: space-evenly;
+}
+.cards{
+    height: 100px;
+}

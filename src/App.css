@@ -1,0 +1,11 @@
+    .contenedor_final{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+    }
+@media screen and (max-width:800px) {
+    .contenedor_final{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
